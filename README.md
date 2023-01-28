@@ -1,0 +1,1 @@
+Solutions to assignment questions for the [CS 138 course](https://student.cs.uwaterloo.ca/~cs138/index.shtml) in the Winter 2023 term at the University of Waterloo.
