@@ -26,10 +26,10 @@ bool LexTree::hasWord(const std::string& s) const {
     return node->isWord;
 }
 std::string LexTree::toString(std::string prefix) const {
-	std::string res;
+    std::string res;
     if (isWord) res += prefix + '\n';
     for (auto& [c, node] : children) res += node->toString(prefix + c);
-	return res;
+    return res;
 }
 std::string LexTree::toString() const {
     return toString("");
